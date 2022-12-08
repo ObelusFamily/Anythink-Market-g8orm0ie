@@ -14,12 +14,13 @@ const Banner = (props) => {
     <div className="banner text-white">
       <div className="container p-4 text-center">
         <img src={logo} alt="banner" />
-        <div>
+        <div style={{ display: "flex" }}>
           <span>A place to </span>
           <span id="get-part">get</span>
-          <form>
+          <form style={{ margin: "0 10px" }}>
             <input
-              className="input-group"
+              style={{ width: "400px" }}
+              className="search-box"
               placeholder="What is it that you truly desire?"
               type="text"
               onChange={onSearchChange}
