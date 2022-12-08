@@ -18,6 +18,7 @@ const Banner = (props) => {
           <span>A place to </span>
           <span id="get-part">get</span>
           <input
+            id='search-box'
             style={{ width: "400px" }}
             className="search-box"
             placeholder="What is it that you truly desire?"
