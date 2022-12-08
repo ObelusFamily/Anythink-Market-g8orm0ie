@@ -17,15 +17,13 @@ const Banner = (props) => {
         <div style={{ display: "flex" }}>
           <span>A place to </span>
           <span id="get-part">get</span>
-          <form style={{ margin: "0 10px" }}>
-            <input
-              style={{ width: "400px" }}
-              className="search-box"
-              placeholder="What is it that you truly desire?"
-              type="text"
-              onChange={onSearchChange}
-            />
-          </form>
+          <input
+            style={{ width: "400px" }}
+            className="search-box"
+            placeholder="What is it that you truly desire?"
+            type="text"
+            onChange={onSearchChange}
+          />
           <span> the cool stuff.</span>
         </div>
       </div>
