@@ -10,7 +10,7 @@ const ItemList = (props) => {
   if (props.noResult) {
     return (
       <div className="container" id="empty">
-        No item found
+        No item found!
       </div>
     );
   }
